@@ -4,7 +4,7 @@
 
 ### Project 1: Caesar Cipher
 #### Description:
-Common/basic shift cipher to encrypt strings, by shiftings letters according to shift amount ammount.
+Common/basic shift cipher to encrypt strings, by shiftings letters according to shift amount.
 <br>
 E.g. Cipher('Hello, World!', 3) => 'Khoor, Zruog!'
 
