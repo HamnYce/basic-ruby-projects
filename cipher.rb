@@ -22,4 +22,4 @@ def cipher(string, shift_val)
   encrypted_string
 end
 
-puts cipher('Hello, World!',3)
+puts cipher('Hello, World!', 3)
