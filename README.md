@@ -1,7 +1,6 @@
 # Basic Ruby Projects
 ## Basic 'learning programming' projects in ruby
 
----
 
 ### Project 1: Caesar Cipher
 #### Description:
