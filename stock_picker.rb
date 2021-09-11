@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 def stock_picker(stocks) 
-  greatest_diff = 0
+  biggest_diff = 0
   # stock index 0 is lowest price index, stock_index 1 is highest price index
   stock_indeces = []
 
@@ -9,12 +9,12 @@ def stock_picker(stocks)
     rest_of_stocks = stocks.values_at(i + 1..-1)
 
     rest_of_stocks.each_with_index do |y, j|
-      if greatest_diff < (y - x)
-        greatest_diff = (y - x) and stock_indeces = [i, (j + i + 1)]
+      if biggest_diff < (y - x)
+        biggest_diff = (y - x) and stock_indeces = [i, (j + i + 1)]
       end
     end
   end
-  return stock_indeces unless greatest_diff <= 0
+  return stock_indeces unless biggest_diff <= 0
 
   'Looks like it\'s a bullish market'
 end
