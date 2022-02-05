@@ -3,7 +3,11 @@
 require './lib/cipher'
 
 RSpec.describe Cipher do
+<<<<<<< HEAD
   subject { Cipher }
+=======
+t  subject { Cipher }
+>>>>>>> 79f331b (create basic test cases for cipher.rb)
 
   describe '.cipher' do
     context 'when letters are lower case' do
